@@ -3,6 +3,7 @@ import axios from '../../helpers/axios';
 import MarkdownIt from "markdown-it";
 import ReactMarkdown from "react-markdown";
 import { marked } from 'marked';
+import Link from 'next/link'
 
 export default function Feature({feature}) {
 
@@ -56,12 +57,11 @@ export default function Feature({feature}) {
                         </div>
 
                         <div className="mt-8 inline-flex rounded-md shadow">
-                            <a
-                            href="#"
-                            className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700"
-                            >
-                            تواصل معنا
-                            </a>
+                            <Link href='/contact'>
+                                <a  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                                تواصل معنا
+                                </a>
+                            </Link>
                         </div>
                         </div>
                     </div>
