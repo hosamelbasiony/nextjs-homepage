@@ -17,7 +17,7 @@ export default function Example({features}) {
             <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-8">
             {features.map((feature) => (
                 <Link href={`/about/${feature.id}`} key={feature.id}>
-                  <a  className="relative">
+                  <a  className="block">
                     <dt>
                         <CheckIcon className="absolute h-6 w-6 text-green-500" aria-hidden="true" />
                         <p className="mr-9 text-lg leading-6 font-medium text-gray-900">{feature.attributes.title}</p>
