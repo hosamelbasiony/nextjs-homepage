@@ -28,3 +28,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+li {
+  @apply list-disc;
+}
+
+ul {
+  @apply list-inside ;
+  /* @apply list-outside ;
+  @apply hover:list-inside; */
+}

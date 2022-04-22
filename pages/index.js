@@ -8,7 +8,7 @@ export default function Home() {
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-20">
           <div className="text-center">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <div className="block xl:inline">نظام ترقيم&reg; لإدارة المختبرات الطبية</div>
+              <div className="block xl:inline">نظام يسير&reg; لإدارة المختبرات الطبية</div>
               
               <div className="block text-indigo-600 xs-mt-3 mt-6">مُختبرك دائمًا بين يديك</div>
             </h1>

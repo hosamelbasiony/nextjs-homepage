@@ -8,7 +8,7 @@ const navigation = [
     { name: 'الرئيسية', local:true, href: '/' },
     // { name: 'المدونة', href: 'https://erp.tarqim.info/blog' },
     { name: 'عن النظام', local:true, href: '/about' },
-    { name: 'تواصل معنا', href: 'https://erp.tarqim.info/contact' },
+    { name: 'تواصل معنا', local:true, href: '/contact' },
     { name: 'منتجاتنا', href: 'https://erp.tarqim.info/products' },
   ]
 
