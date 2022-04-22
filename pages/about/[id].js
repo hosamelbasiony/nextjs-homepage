@@ -2,6 +2,7 @@ import Layout from "../../components/layout";
 import axios from '../../helpers/axios';
 import MarkdownIt from "markdown-it";
 import ReactMarkdown from "react-markdown";
+import { marked } from 'marked';
 
 export default function Feature({feature}) {
 
@@ -50,8 +51,8 @@ export default function Feature({feature}) {
                         <div className="relative md:p-6">
 
                         <div className="lg:grid lg:grid-cols-2 lg:gap-6">
-                            <section dangerouslySetInnerHTML={{ __html: htmlContent1 }}></section>
-                            <section dangerouslySetInnerHTML={{ __html: htmlContent2 }}></section>
+                            <section dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body1) }}></section>
+                            <section dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body2) }}></section>
                         </div>
 
                         <div className="mt-8 inline-flex rounded-md shadow">
