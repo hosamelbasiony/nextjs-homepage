@@ -109,6 +109,7 @@ export default function Layout({ children }) {
                             pathname: item.href,
                           //   query: { slug: '' },
                           }}
+                          key={item.name}
                         >
                           <a className="font-medium text-gray-500 hover:text-gray-900">{item.name}</a>
                         </Link>)
