@@ -2,7 +2,7 @@ import Layout from '../components/layout'
 
 
 
-export default function Example() {
+export default function Home() {
   return (
     <Layout>
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-20">
