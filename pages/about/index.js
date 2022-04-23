@@ -15,16 +15,17 @@ export default function About({features}) {
             </p>
             </div>
             <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-2 lg:gap-x-8">
-            {features.map((feature) => (
-                <Link href={`/about/${feature.id}`} key={feature.id}>
-                  <a  className="inline-block">
+            {features.map((feature) => (                
+                  <div  className="inline-block" key={feature.id}>
                     <dt>
                         <CheckIcon className="absolute h-6 w-6 text-green-500" aria-hidden="true" />
                         <p className="mr-9 text-lg leading-6 font-medium text-gray-900">{feature.attributes.title}</p>
                     </dt>
                     <dd className="mt-2 ml-9 text-base text-gray-500">{feature.attributes.description}</dd>
-                  </a>
-                </Link>
+                    <Link href={`/about/${feature.id}`}>
+                    <a className="text-blue-600 hover:text-blue-800 visited:text-purple-600">عرض المزيد</a>
+                    </Link>
+                  </div>
             ))}
             </dl>
         </div>
