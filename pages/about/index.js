@@ -4,7 +4,7 @@ import axios from '../../helpers/axios';
 
 import Layout from '../../components/layout'
 
-export default function Example({features}) {
+export default function About({features}) {
   return (
     <Layout> 
         <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8" style={{direction: "rtl"}}>

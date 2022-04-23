@@ -1,7 +1,6 @@
 import Layout from "../../components/layout";
 import axios from '../../helpers/axios';
 import MarkdownIt from "markdown-it";
-import ReactMarkdown from "react-markdown";
 import { marked } from 'marked';
 import Link from 'next/link'
 
