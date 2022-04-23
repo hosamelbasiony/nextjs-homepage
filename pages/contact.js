@@ -13,7 +13,7 @@ export default function Example() {
             <div className="max-w-lg mx-auto">
                 <h2 className="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl">تواصل معنا</h2>
                 <p className="mt-3 text-lg leading-6 text-gray-500">
-                لمزيد من المعلومات والعروض رجاء التواصل عبر إجحدى الوسائل التالية
+                لمزيد من المعلومات والعروض رجاء التواصل عبر إحدى الوسائل التالية
                 </p>
                 <dl className="mt-8 text-base text-gray-500">
                 <div>
