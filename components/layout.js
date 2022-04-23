@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const navigation = [
     { name: 'الرئيسية', local:true, href: '/' },
-    { name: 'المدونة', href: 'https://erp.tarqim.info/blog' },
+    // { name: 'المدونة', href: 'https://erp.tarqim.info/blog' },
     { name: 'عن النظام', local:true, href: '/about' },
     { name: 'تواصل معنا', local:true, href: '/contact' },
     // { name: 'منتجاتنا', href: 'https://erp.tarqim.info/products' },
