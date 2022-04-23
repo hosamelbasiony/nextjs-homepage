@@ -16,7 +16,7 @@ export default function Feature({feature}) {
         <Layout>
             <div className="py-2 mt-12 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ direction: 'rtl' }}>
                 <div className="max-w-max lg:max-w-7xl mx-auto">
-                    <div className="relative z-10 mb-8 md:mb-2 md:px-6">
+                    <div className="relative mb-8 md:mb-2 md:px-6">
                         <div className="text-base max-w-prose lg:max-w-none">
                             <h2 className="leading-6 text-indigo-600 font-semibold tracking-wide uppercase">نظام يسير&trade; لإدارة المختبرات</h2>
                             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
