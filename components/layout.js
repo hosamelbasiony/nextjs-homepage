@@ -9,7 +9,7 @@ const navigation = [
     // { name: 'المدونة', href: 'https://erp.tarqim.info/blog' },
     { name: 'عن النظام', local:true, href: '/about' },
     { name: 'تواصل معنا', local:true, href: '/contact' },
-    { name: 'منتجاتنا', href: 'https://erp.tarqim.info/products' },
+    // { name: 'منتجاتنا', href: 'https://erp.tarqim.info/products' },
   ]
 
 export default function Layout({ children }) {
