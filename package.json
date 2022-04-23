@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "npm run build && next export -o _static",
+    "export": "npm run build && next export -o _static && git add . && git commit -m 'update' && git push origin main",
     "push": "git commit -am 'update' && git push",
     "cypress:open": "cypress open"
   },
