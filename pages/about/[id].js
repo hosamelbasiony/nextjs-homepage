@@ -51,17 +51,17 @@ export default function Feature({feature}) {
                         <div className="relative md:p-6">
 
                         <div className="lg:grid lg:grid-cols-2 lg:gap-6">
-                            <section dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body1) }}></section>
-                            <section dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body2) }}></section>
+                            <section className="markdown" dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body1) }}></section>
+                            <section className="markdown" dangerouslySetInnerHTML={{ __html: marked.parse(feature.attributes.body2) }}></section>
                         </div>
 
-                        <div className="mt-8 inline-flex rounded-md shadow">
+                        {/* <div className="mt-8 inline-flex rounded-md shadow">
                             <Link href='/contact'>
                                 <a  className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
                                 تواصل معنا
                                 </a>
                             </Link>
-                        </div>
+                        </div> */}
                         </div>
                     </div>
                 </div>
